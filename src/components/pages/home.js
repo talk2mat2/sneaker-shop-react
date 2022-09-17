@@ -122,19 +122,19 @@ const Home = () => {
                 <div onClick={()=>setActive(2)} className={`w-[20%] ${active===2&&"img-active"}`}>
                   <img alt=""
                     className="rounded-lg"
-                    src="./image-product-1-thumbnail.jpg"
+                    src="./image-product-2-thumbnail.jpg"
                   />
                 </div>
                 <div onClick={()=>setActive(3)} className={`w-[20%] ${active===3&&"img-active"}`}>
                   <img alt=""
                     className="rounded-lg"
-                    src="./image-product-1-thumbnail.jpg"
+                    src="./image-product-3-thumbnail.jpg"
                   />
                 </div>
                 <div onClick={()=>setActive(4)} className={`w-[20%] ${active===4&&"img-active"}`}>
                   <img alt=""
                     className="rounded-lg"
-                    src="./image-product-1-thumbnail.jpg"
+                    src="./image-product-4-thumbnail.jpg"
                   />
                 </div>
               </div>
