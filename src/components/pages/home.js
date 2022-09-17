@@ -113,25 +113,25 @@ const Home = () => {
                 </div>
               </div>
               <div className=" flex  flex-row justify-between mt-5 hide-mobile">
-                <div className="w-[20%] img-active">
+                <div onClick={()=>setActive(1)} className={`w-[20%] ${active===1&&"img-active"}`}>
                   <img alt=""
                     className="rounded-lg"
                     src="./image-product-1-thumbnail.jpg"
                   />
                 </div>
-                <div className="w-[20%]">
+                <div onClick={()=>setActive(2)} className={`w-[20%] ${active===2&&"img-active"}`}>
                   <img alt=""
                     className="rounded-lg"
                     src="./image-product-1-thumbnail.jpg"
                   />
                 </div>
-                <div className="w-[20%]">
+                <div onClick={()=>setActive(3)} className={`w-[20%] ${active===3&&"img-active"}`}>
                   <img alt=""
                     className="rounded-lg"
                     src="./image-product-1-thumbnail.jpg"
                   />
                 </div>
-                <div className="w-[20%]">
+                <div onClick={()=>setActive(4)} className={`w-[20%] ${active===4&&"img-active"}`}>
                   <img alt=""
                     className="rounded-lg"
                     src="./image-product-1-thumbnail.jpg"
